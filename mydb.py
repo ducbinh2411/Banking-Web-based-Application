@@ -3,9 +3,9 @@
 #pip install mysql-connector
 #pip install mysql-connector-python
 
-import pymysql
+import mysql.connector
 
-dataBase = pymysql.connect(
+dataBase = mysql.connector.connect(
 	host = 'localhost',
 	user = 'root',
 	passwd = 'S5takara'
